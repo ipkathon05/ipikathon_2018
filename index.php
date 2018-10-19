@@ -67,7 +67,7 @@
   <!-- Insert numero vol -->
   <div id="headerwrap">
     <div class="container">
-      <div class="row">
+      <div class="row mt centered">
         <div class="col-lg-6">
           <h1>Numero de vol :</h1>
           <form class="form-inline" role="form">
@@ -87,7 +87,7 @@
   <!-- Carroussel -->
   <div id="headerwrap">
     <div class="container">
-      <div class="row">
+      <div class="row mt centered">
 	  
 	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -95,20 +95,35 @@
 		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		  <li data-target="#myCarousel" data-slide-to="1"></li>
 		  <li data-target="#myCarousel" data-slide-to="2"></li>
+		  <li data-target="#myCarousel" data-slide-to="3"></li>
+		  <li data-target="#myCarousel" data-slide-to="4"></li>
+		  <li data-target="#myCarousel" data-slide-to="5"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
-		<div class="carousel-inner">
+		<div class="carousel-inner" style="margin:auto">
 		  <div class="item active">
-			<img src="img/france.png" alt="Los Angeles" style="width:20%;">
+			<img src="img/map.png" alt="Los Angeles" style="width:30%;margin:0 34%;">
 		  </div>
 
 		  <div class="item">
-			<img src="img/germany.png" alt="Chicago" style="width:20%;">
+			<img src="img/dinner.png" alt="Chicago" style="width:30%;margin:0 34%;">
 		  </div>
 		
 		  <div class="item">
-			<img src="img/english.png" alt="New york" style="width:20%;">
+			<img src="img/bus.png" alt="New york" style="width:30%;margin:0 34%;">
+		  </div>
+		  
+		  <div class="item">
+			<img src="img/shopping-bag.png" alt="New york" style="width:30%;margin:0 34%;">
+		  </div>
+		  
+		  <div class="item">
+			<img src="img/carrent.png" alt="New york" style="width:30%;margin:0 34%;">
+		  </div>
+		  
+		  <div class="item">
+			<img src="img/parking.png" alt="New york" style="width:30%;margin:0 34%;">
 		  </div>
 		</div>
 
@@ -129,228 +144,23 @@
   </div>
   <!-- /headerwrap -->
 
-
-  <div class="container">
-    <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <h1>Your Landing Page<br/>Looks Wonderful Now.</h1>
-        <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
-      </div>
-    </div>
-    <!-- /row -->
-
-    <div class="row mt centered">
-      <div class="col-lg-4">
-        <img src="img/ser01.png" width="180" alt="">
-        <h4>1 - Browser Compatibility</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-      </div>
-      <!--/col-lg-4 -->
-
-      <div class="col-lg-4">
-        <img src="img/ser02.png" width="180" alt="">
-        <h4>2 - Email Campaigns</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-
-      </div>
-      <!--/col-lg-4 -->
-
-      <div class="col-lg-4">
-        <img src="img/ser03.png" width="180" alt="">
-        <h4>3 - Gather Your Notes</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-
-      </div>
-      <!--/col-lg-4 -->
-    </div>
-    <!-- /row -->
-  </div>
-  <!-- /container -->
-
-  <div class="container">
-    <hr>
-    <div class="row centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <form class="form-inline" role="form">
-          <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
-          </div>
-          <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
-        </form>
-      </div>
-      <div class="col-lg-3"></div>
-    </div>
-    <!-- /row -->
-    <hr>
-  </div>
-  <!-- /container -->
-
-  <div class="container">
-    <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <h1>Flatty is for Everyone.</h1>
-        <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
-      </div>
-    </div>
-    <!-- /row -->
-
-    <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/p01.png" alt="">
-            </div>
-            <div class="item">
-              <img src="img/p02.png" alt="">
-            </div>
-            <div class="item">
-              <img src="img/p03.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /col-lg-8 -->
-    </div>
-    <!-- /row -->
-  </div>
-
-  <div class="container">
-    <hr>
-    <div class="row centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <form class="form-inline" role="form">
-          <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
-          </div>
-          <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
-        </form>
-      </div>
-      <div class="col-lg-3"></div>
-    </div>
-    <!-- /row -->
-    <hr>
-  </div>
-  <!-- /container -->
-
-  <div class="container">
-    <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <h1>Our Awesome Team.<br/>Design Lovers.</h1>
-        <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
-      </div>
-    </div>
-    <!-- /row -->
-
-    <div class="row mt centered">
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/pic1.jpg" width="140" alt="">
-        <h4>Michael Robson</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-        <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
-      </div>
-      <!--/col-lg-4 -->
-
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/pic2.jpg" width="140" alt="">
-        <h4>Pete Ford</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-        <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
-      </div>
-      <!--/col-lg-4 -->
-
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/pic3.jpg" width="140" alt="">
-        <h4>Angelica Finning</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-        <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
-      </div>
-      <!--/col-lg-4 -->
-    </div>
-    <!-- /row -->
-  </div>
-  <!-- /container -->
-
-  <div class="container">
-    <hr>
-    <div class="row centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <form class="form-inline" role="form">
-          <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
-          </div>
-          <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
-        </form>
-      </div>
-      <div class="col-lg-3"></div>
-    </div>
-    <!-- /row -->
-  </div>
-  <!-- /container -->
-
-
-  <div id="contact">
+  <div id="headerwrap">
     <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2 class="centered">Contact Us</h2>
-          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
-
-            <div class="form-group">
-              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
-              <div class="validate"></div>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
-              <div class="validate"></div>
-            </div>
-
-            <div class="form-group">
-              <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-              <div class="validate"></div>
-            </div>
-
-            <div class="loading"><img src="lib/php-mail-form/loading.gif"></div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
-
-            <div class="form-send">
-              <button type="submit" class="btn btn-large">Send Message</button>
-            </div>
-
-          </form>
-
+      <div class="row mt centered">
+        <div class="col-lg-6">
+          <div id="map" style="width:100%;height:600px"></div>
         </div>
       </div>
+      <!-- /row -->
     </div>
+    <!-- /container -->
   </div>
-  <!-- / contact -->
 
   <div id="copyrights">
     <div class="container">
       <p>
-        &copy; Copyrights <strong>Flatty</strong>. All Rights Reserved
+        &copy; Copyrights <strong>Groupe FIVE</strong>. All Rights Reserved
       </p>
-      <div class="credits">
-        <!--
-          You are NOT allowed to delete the credit link to TemplateMag with free version.
-          You can delete the credit link only if you bought the pro version.
-          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/flatty-bootstrap-app-landing-page-template/
-          Licensing information: https://templatemag.com/license/
-        -->
-        Created with Flatty template by <a href="https://templatemag.com/">TemplateMag</a>
       </div>
     </div>
   </div>
@@ -364,6 +174,8 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/airportBlagnac.js"></script>
+  <script src="js/map.js"></script>
 
 </body>
 </html>
