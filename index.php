@@ -6,6 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  <script src="openlayers/ol.js"></script>
+  <link rel="stylesheet" href="openlayers/ol.css">
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -147,9 +149,7 @@
   <div id="headerwrap">
     <div class="container">
       <div class="row mt centered">
-        <div class="col-lg-6">
           <div id="map" style="width:100%;height:600px"></div>
-        </div>
       </div>
       <!-- /row -->
     </div>
@@ -176,6 +176,6 @@
   <script src="js/main.js"></script>
   <script src="js/airportBlagnac.js"></script>
   <script src="js/map.js"></script>
-
+  <script>refreshMap(247)</script>
 </body>
 </html>
